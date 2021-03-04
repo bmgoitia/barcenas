@@ -1,0 +1,544 @@
+
+body, p, h1, h2, h3, h4, h5{
+	margin: 0;
+	 font-family: 'Montserrat', sans-serif;	
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+
+#splash{
+	width: 100vw;
+	background-image: url("../img/lBarcenas_mov.jpg");
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 text-align: center;
+}
+
+.splashCont{
+	height: 100vh;
+	color: #e0e0e0;
+}
+
+.tTabs{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+}
+
+.tTabs h5{
+	padding: 10px;
+	color: #fff;
+	border: 1px dotted grey;
+	font-weight: 300;
+  text-transform: uppercase;
+  font-size: .7rem;
+}
+
+.tTabs a:hover {
+  text-decoration: none;
+}
+
+.title1{
+  margin-top: 55vh;
+}
+
+#splash h2{
+	font-size: 2.4rem;
+	font-weight: 900;
+	text-transform: uppercase;	
+	margin-bottom: 30px;
+}
+
+#splash p{
+  font-size: 1.3rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    background-color: #000;
+    padding: 10px 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+/* TIMELINE */
+
+
+#tl{
+	padding-top: 50px;
+	background-image: url("../img/B19_mov.jpg");
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-attachment: fixed;
+}
+
+.timelineCont{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.timelineCont::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 4px;
+    background: #000;
+
+}
+
+.tlDate{
+  padding: 7px 15px;
+  background-color: #fff;
+  z-index: 10;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.tlDateY{
+	  font-weight: 600;
+
+}
+
+
+.tlDateM{
+	 color: #fff;
+	 text-transform: uppercase;
+}
+
+.tlBlock{
+	width: 80vw;
+	max-width: 550px;
+	text-align: center;
+	border: dotted 1px grey;
+	z-index: 10;
+  background-color: #fff;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.tlBlockTitle{
+	padding: 10px 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.tlBlockImg{
+	width: 100%
+	max-height: 150px;
+	overflow: hidden;
+}
+
+.tlBlockImg img{
+	width: 100%
+}
+
+.tlBlockText{
+	padding: 20px 10px;
+}
+
+
+/* END OF TIMELINE */
+
+/* FILES */
+
+#fl{
+  padding-top: 50px;
+  padding-bottom: 70px;
+    background-image: url(../img/B19_mov.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.flCont{
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 800px;
+}
+
+.flBack{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flBack p{
+  color: #fff;
+  margin-right: 10px;
+}
+
+.flBack span{
+  width: 17px;
+  height: 17px;
+  margin-top: 2px;
+  background-image: url(../img/up-arrow-white2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.flTit{
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.flTit h2{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.flMenu{
+
+}
+
+.flTabs{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  margin-bottom: 50px;
+}
+
+.flTabs h5{
+  padding: 10px;
+    color: #1f1f1f;
+    background-color: #fff;
+    border: 1px dotted grey;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+
+.flTabs a:hover {
+  text-decoration: none;
+}
+
+
+#flAcus h3, #flTest h3{
+  width: 50vw;
+  margin: 0 auto;
+  padding: 10px 0;
+  background-color: #1f1f1f;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  border: 1px solid grey;
+  border-radius: 4px;
+  
+}
+
+.deck1{
+  margin-top: 30px;
+}
+
+#flAcus .card{
+  margin-bottom: 50px;
+}
+
+#flAcus h5{
+  display: inline-block;
+  margin: 10px 15px 10px 10px;
+}
+
+#flAcus span{
+  font-size: .85rem;
+  font-weight: 400;
+}
+
+.unifTitle{
+  text-align: center;
+}
+
+.unifTitle h6{
+  font-size: .85rem;
+  font-weight: 400;
+}
+
+
+
+#flAcus .card-body{
+  padding: 0;
+}
+
+#flAcus .card-text{
+  margin: 1px 10px 20px;
+  padding-top: 10px;
+  border-top: 1px solid grey;
+}
+
+
+/* RespCivSub */
+
+.civil{
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.logoPP{
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  background-image: url("../img/logoPP.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+
+.civil p{
+  color: #000; 
+  text-align: center;
+}
+
+.civil span{
+ font-weight: bold;
+}
+
+
+/* TEST */
+
+#flTest{
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+.check{
+  font-style: italic;
+  margin-top:30px;
+  margin-bottom:40px;
+  text-align: center;
+  cursor: pointer;
+ text-decoration: underline 1px dotted #fff;
+}
+
+.check a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.acIcons{
+  background-color: rgb(43, 42, 42, 0.8 );
+  border-radius: 5px;
+  padding: 30px 10px;
+}
+
+
+.acF{
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+
+.tDesc{
+  display: flex;
+  flex-direction: column;
+  margin: 5px 7px 12px;
+
+  border: 1px solid #1f1f1f;
+  border-radius: 2px;
+
+}
+
+.tName{
+  background-color: #fff;
+  color: #000;
+  font-weight: 600;
+}
+
+.tPos{
+ 
+  color: #fff;
+}
+
+.tName, .tPos{
+  font-size: .7rem;
+  padding: 4px 0;
+}
+
+
+
+.acIcons img{
+  width: 75px;
+  height: 75px;
+}
+
+
+
+/* Test List*/
+.testListHead{
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 12px 0;
+}
+
+.testListHead span.listArrow{
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  background: url("../img/down-arrow.png") no-repeat;
+}
+
+/*.testListHead span.arrowDown{
+    background: url("../img/down-arrow.png") no-repeat;
+}*/
+
+.testListHead span.arrowUp{
+    background: url("../img/up-arrow.png") no-repeat;
+}
+
+
+
+/* SIGN */
+
+#sign{
+  text-align: center;
+  margin-top: 50px;
+ }
+
+#sign p{
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: black;
+    color: #fff;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 200;
+ }
+
+ #sign span{
+   margin-left: 7px;
+ }
+
+
+
+
+
+
+/* END OF FILES */
+
+
+
+/* SLIDER */
+
+#pap{
+  background-color: #000;
+}
+
+#pap h3{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.introPap{
+  text-align: center;
+  color: #fff;
+  margin: 50px;
+}
+
+.swiper-container{
+  height: 100vh;
+  max-width: 550px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 576px) {
+
+  #mainCont{
+    width: 100vw;
+  }
+
+
+  /* SPLASH */
+  #splash{
+    background-image: url("../img/lBarcenasb.jpg");
+  }
+
+  .splashCont{
+		height: 100vh;
+		color: #e0e0e0;
+  }
+
+  .tTabs {
+    display: flex;
+   /* flex-direction: column;*/
+    justify-content: space-between;
+    margin: 0 50px;
+    padding-top: 20px;
+  }
+
+  #tl, #fl{
+    background-image: url("../img/B192.jpg");
+  }
+
+  .tlBlock{
+		max-width: 450px;
+  }
+
+
+  /* FILES */
+
+  #flAcus .card-deck{
+    margin-bottom: 50px;
+  }
+  .acIcons img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .tName{
+    font-size: 1rem;
+  }
+
+  .tPos{
+    font-size: .8rem;
+  }
+
+  .civil p{
+    margin-top: 20px;
+  }
+
+ 
+}
+
+@media (min-width: 850px) {
+  .tTabs {
+    margin: 0 100px;
+  }
+
+  .tTabs h5 {
+    font-size: 1.2rem;
+}
+}
+
