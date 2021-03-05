@@ -5,6 +5,10 @@ window.onload = function() {
  		$(".tlDateM").parent().css( "margin-bottom", "50px" );
     $(".tlDateM").parent().css( "background-color", "#000" );
 
+    $('.tTabs a').on("click", function(){
+    	console.log('clicked');
+    })
+
 
     /* Slider */
 
