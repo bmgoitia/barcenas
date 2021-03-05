@@ -19,7 +19,7 @@ a:hover {
 }
 
 .splashCont{
-	height: 100vh;
+	/*height: 100vh;*/
 	color: #e0e0e0;
 }
 
@@ -486,7 +486,6 @@ a:hover {
   }
 
   .splashCont{
-		height: 100vh;
 		color: #e0e0e0;
   }
 
