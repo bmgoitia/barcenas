@@ -27,6 +27,7 @@ a:hover {
 	display: flex;
 	justify-content: space-around;
 	padding-top: 20px;
+  z-index: 30;
 }
 
 .tTabs h5{
