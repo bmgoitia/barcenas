@@ -466,10 +466,27 @@ a:hover {
   margin: 50px;
 }
 
-.swiper-container{
-  height: 500px;
-  max-width: 550px;
+#papeles{
+  width: 60%;
+  max-width: 750px;
+  margin: 0 auto;
 }
+
+#papeles .carousel-control-prev-icon{
+  background-image: url("../img/ant64.png");
+  width: 64px;
+  height: 64px;
+
+}
+
+#papeles .carousel-control-next-icon{
+  background-image: url("../img/sig64.png");
+  width: 64px;
+  height: 64px;
+}
+
+
+
 
 
 /* MEDIA QUERIES */
